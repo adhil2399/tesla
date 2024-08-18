@@ -1,0 +1,565 @@
+ 
+ body{
+    margin: 0;
+    padding: 0;
+}
+   
+/* first-page  */
+
+.part1{
+    background-image: url(img1.avif);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    float: left ;
+
+}
+     /* nav-bar  */
+
+.logo{
+    width: 123px;
+    height: 30px;
+    color: rgb(252,252,252);
+    margin-left: 48px;
+    margin-top: 14px;
+
+
+}
+.first-left{
+    float: left;
+}
+.mid-top-nav{
+    padding-left: 345px;
+    float: left;
+    margin-top: 5px;
+     margin-left: 20px;
+     cursor: pointer;
+
+
+    
+}
+.list{
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(252,252,252);
+    margin-left: 15px;
+    font-weight:  bold;
+    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+    font-size: 14px;
+}
+.support{
+    color: rgba(255, 255, 255, 0.959);
+    width: 23px;
+    height: 27px;
+    margin-left: 390px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.global{
+    color:rgba(255, 255, 255, 0.959);
+    width: 23px;
+    height: 27px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.user{
+    color:rgba(255, 255, 255, 0.959);
+    width: 23px;
+    height: 27px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.content{
+
+    color:rgba(255, 255, 255, 0.959) ;
+    float: left;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+}
+.content h1{
+    font-size: 52px;
+   
+    margin-top: 35px;
+   
+    margin-left: 503px;
+
+}
+.content h3{
+    margin-left: 360px;
+    font-size: 26px;
+    margin-top: -27px;
+    color:rgba(255, 255, 255, 0.959) ;
+    
+}
+.content a {
+    cursor:pointer;
+    text-decoration: none;
+}
+.first{ 
+    width: 55%;
+    margin-left: 362px;
+    margin-top: -27px;
+    
+    border-color: rgba(255, 255, 255, 0.959) ;
+    border-top: none ;
+    background: rgba(255, 255, 255, 0.959) ;
+}
+.p1{
+     margin-top: -7px;
+    margin-left: 546px;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif ;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#oder-now1{
+   
+    margin-left: 350px;
+    margin-top: 440px;
+    width: 257px;
+    height: 39px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(62, 106, 225);
+    color:rgba(255, 255, 255, 0.959) ;
+    font-weight: 700;
+    cursor: pointer;
+}
+#demo-drive1{
+    margin-left: 15px;
+    width: 257px;
+    height: 39px;   
+    border: none;
+    border-radius: 5px;
+    color: #555252;
+    background:rgba(255, 255, 255, 0.959) ;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+ /* second-page  */
+
+.part2{
+   background-image: url(img2.avif);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    float: left;  
+    
+}
+
+
+.content2{
+    
+    color:rgba(255, 255, 255, 0.959) ;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    float: left;
+}
+.content2 h1{
+
+    
+    font-size: 52px;
+   
+    margin-top: 35px;
+   
+    margin-left: 672px;
+}
+.content2 h3{
+    
+    margin-left: 529px;
+    font-size: 26px;
+    margin-top: -27px;
+    color:rgba(255, 255, 255, 0.959) ;
+    
+}
+.content2 a {
+    cursor:pointer;
+    text-decoration: none;
+}
+.sec{ 
+    width: 46%;
+    margin-left: 533px;
+    margin-top: -27px;
+    
+    border-color: rgba(255, 255, 255, 0.959) ;
+    border-top: none ;
+    background: rgba(255, 255, 255, 0.959) ;
+}
+.p2{
+     margin-top: -7px;
+    margin-left: 715px;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif ;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#oder-now2{
+    
+    margin-left: 517px;
+    margin-top: 440px;
+    width: 257px;
+    height: 39px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(62, 106, 225);
+    color:rgba(255, 255, 255, 0.959) ;
+    font-weight: 700;
+    cursor: pointer;
+}
+#demo-drive2{
+   
+    margin-left: 15px;
+    width: 257px;
+    height: 39px;   
+    border: none;
+    border-radius: 5px;
+    color: #555252;
+    background:rgba(255, 255, 255, 0.959) ;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* thrid-page */
+
+.part3{
+    background-image: url(img3.avif);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    float: left;  
+    
+}
+.content3{
+    
+    color:rgba(255, 255, 255, 0.959) ;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    float: left;
+}
+.content3 h1{
+
+    
+    font-size: 52px;
+   
+    margin-top: 44px;
+   
+    margin-left: 672px;
+}
+.content3 .price{
+    
+    margin-left: 682px;
+    font-size: 24px;
+    margin-top: -33px;
+    color:rgba(255, 255, 255, 0.959) ;
+    
+}
+ 
+.thr{ 
+    width: 46%;
+    margin-left: 533px;
+    margin-top: -27px;
+    
+    border-color: rgba(255, 255, 255, 0.959) ;
+    border-top: none ;
+    background: rgba(255, 255, 255, 0.959) ;
+}
+.h3{
+    text-align: center;
+    margin-left: 500px;
+    margin-top: -15px;
+    text-decoration: underline;
+    font-size: 17px;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+}
+
+/* forth-page  */
+
+.part4{
+    background-image: url(img4.avif);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    float: left;  
+}
+.content4{
+    
+    color:rgba(255, 255, 255, 0.959) ;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    float: left;
+}
+.content4 h1{
+
+    
+    font-size: 52px;
+   
+    margin-top: 44px;
+   
+    margin-left: 672px;
+}
+.content4 .price{
+    
+    margin-left: 682px;
+    font-size: 24px;
+    margin-top: -33px;
+    color:rgba(255, 255, 255, 0.959) ;
+    font-weight: bold;
+}
+ 
+.thr{ 
+    width: 46%;
+    margin-left: 533px;
+    margin-top: -27px;
+    
+    border-color: rgba(255, 255, 255, 0.959) ;
+    border-top: none ;
+    background: rgba(255, 255, 255, 0.959) ;
+}
+.h3{
+    text-align: center;
+    margin-left: 500px;
+    margin-top: -15px;
+    text-decoration: underline;
+    font-size: 17px;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+}
+
+/* fifth-part  */
+
+.part5{
+    background-image: url(img5.avif);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    float: left;  
+}
+content5{
+    
+    color:rgba(255, 255, 255, 0.959) ;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    float: left;
+
+}
+ .spark{
+    height: 110px;
+    width: 800px;
+    margin-left: 360px;
+    margin-top: 66px;
+
+ }
+ #black-button{
+    
+    margin-left: 517px;
+    margin-top: 440px;
+    width: 257px;
+    height: 39px;
+    font-weight: 700;
+    background-color: black;
+    color: gray;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+#black-button-1{
+   
+    margin-left: 15px;
+    width: 257px;
+    height: 39px;   
+    color: #555252;
+    background:rgba(255, 255, 255, 0.959) ;
+    font-weight: 600;background-color: black;
+    color: gray;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+/* sixth-part  */
+
+.part6{
+    background-image: url(img6.avif);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    float: left;  
+}
+.content6 h1{
+
+    color:rgba(255, 255, 255, 0.959) ;
+    font-size: 52px;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    margin-top: 66px;
+     text-align: center;
+}
+.content6 h3{
+        
+        font-size: 26px;
+        margin-top: -27px;
+        text-align: center;
+        text-decoration: underline;
+        font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+        color:rgba(255, 255, 255, 0.959) ;
+     }
+                
+    
+    #demo-drive2{
+       
+        margin-left: 15px;
+        width: 257px;
+        height: 39px;   
+        border: none;
+        border-radius: 5px;
+        color: #555252;
+        background:rgba(255, 255, 255, 0.959) ;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    /* seventh-part  */
+
+    .part7{
+        background-image: url(img7.avif);
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        float: left;  
+    }
+    .content7 h1{
+
+        color:rgba(255, 255, 255, 0.959) ;
+        font-size: 52px;
+        font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+        margin-top: 66px;
+         text-align: center;
+    }
+    .content7 h3{
+            
+            font-size: 26px;
+            margin-top: -27px;
+            text-align: center;
+           
+            font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+            color:rgba(255, 255, 255, 0.959) ;
+         }
+
+         /* eight-page  */
+
+         .part8{
+            background-image: url(img8.avif);
+            height: 100vh;
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            float: left;  
+         }
+         .content8 h1{
+
+            color:rgba(255, 255, 255, 0.959) ;
+            font-size: 52px;
+            font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+            margin-top: 66px;
+             text-align: center;
+         }
+
+         /* ninth-part  */
+
+         .part9{
+            background-image: url(img9.avif);
+            height: 100vh;
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            float: left;  
+         }
+         .content9 h1{
+
+            color:rgba(255, 255, 255, 0.959) ;
+            font-size: 52px;
+            font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+            margin-top: 66px;
+             text-align: center;
+         }
+         #oder-now9{
+       
+ 
+            margin-left: 630px;
+            margin-top: 480px;
+            width: 257px;
+            height: 39px;
+            border: none;
+            border-radius: 5px;
+            background: rgb(62, 106, 225);
+            color:rgba(255, 255, 255, 0.959) ;
+            font-weight: 700;
+            cursor: pointer;
+         }
+
+         /* footer  */
+
+
+      .footer{
+    height: 540px;
+    margin-top: 50px;
+    width: 100%;
+    background-color: black;
+    color: rgb(208, 209, 210);
+    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+    text-align: center;
+}
+.href-p{
+    color: rgb(208, 209, 210);
+    text-decoration: underline 0.5px;
+    text-underline-offset: 4px;
+}
+.li-footer{
+    cursor: pointer;
+    background-color: black;
+    color: rgb(208, 209, 210);
+    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+    display: ;
+    text-align: center;
+    margin-top: 56px;
+    padding-top: 3px;
+    font-size: 12px;
+    line-height: 17px;
+    width: 594px;
+    overflow: hidden;
+    font-weight: 400;
+    list-style: none;
+    display: flex;
+    padding-left: 500px;
+    padding-top: 57px;
+}
+.p-0{
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 35px;
+    font-size: 12px;
+    line-height: 17px;
+    word-spacing: 1px;
+    font-weight: 400;
+}
+ 
+.p-1{
+    display: block;
+    text-align: center;
+    margin-top: -33px;
+    padding-top: 35px;
+    font-size: 12px;
+    line-height: 17px;
+    word-spacing: 1px;
+    font-weight: 400;
+    background-color: black;
+}
+.li-f{
+    margin-top: -33px;
+    margin-left: 10px;
+}
